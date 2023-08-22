@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+body {
+    font-family: 'Playfair Display', serif;
+}
+nav {
+    background: white;
+    height: 80px;
+    width: 100%;
+}
+label.logo{
+    color: black;
+    font-size: 50px;
+    line-height: 80px;
+    padding: 20px 30px;
+    font-weight: bold;
+}
+nav ul{
+    float:right;
+    margin-right: 50px;
+    justify-content: space-between;
+    padding: 4px;
+    font-weight: bold;
+}
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 1px 30px;
+    text-transform: uppercase;
+    border-radius: 10px;
+} 
+a.active{
+    background-color: grey;
+}
+ a:hover {
+    background-color: blue ;
+    color: black;
+}
+.main {
+    width: 100%;
+    display: flex;
+}
+.content {
+    width: 50%;
+    margin-top: 10%;
+    margin-left: 10%;
+    color: white;
+}
+.content h1 {
+    font-size: 85px;
+    margin-bottom: 3%;
+    letter-spacing: 1px;
+    font-family: 'Playfair Display', seriff; 
+}
+.content h2 {
+    font-size: 40px;
+    margin-bottom: 3%;
+    color: black;
+}
+.content h5 {
+    font-size: 20px;
+    margin-bottom: 5%;
+    color: blue;
+}
+button{
+    font-size: 20px;
+    padding: 15px 35px;
+    background: black;
+    color: red;
+    border-radius: 15px;
+}
+button:hover{
+    background: blue;
+
+}
+body{
+    margin: 0;
+}
+
+body {
+    background-image: url('Britannia.jpg');
+} 
